@@ -1,0 +1,170 @@
+:root {
+    --primary-color: #ff6f61;
+    --secondary-color: #ffcc;
+    --dark-color: #2F2E41;
+    --light-color: #E6E6E6;
+}
+
+@media (max-width: 1025px) {
+
+}
+
+@media (max-width: 769px) {
+    .responsive-div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    } 
+    .responsive-div nav {
+        width: 100%;
+    }
+    #nav-menu {
+        background-color: var(--primary-color);
+        position: absolute;
+        top: 69.2px;
+        right: 0;
+        width: 100%;
+        box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(100%);
+    }
+    #nav-menu.open {
+        transform: translateX(0);
+    }
+    #nav-menu .menu {
+        flex-direction: column;
+    }
+    #nav-menu .logo,
+    #nav-menu .faq-btn,
+    #nav-menu .contact-btn {
+        display: none;
+    }
+    .menu li a {
+        color: var(--light-color);
+        font-size: 16px;
+    }
+    .menu .logo a {
+        color: var(--primary-color) !important;
+    }
+    /*======================= MAIN PAGE =======================*/
+    .offers-news {
+        background-size: 23%;
+        background-position: top left;
+    }
+    .team-svg {
+        background-size: 100%;
+    }
+    .reviews {
+        background-size: 30%;
+    }
+    .newsletter {
+        background-size: 25%;
+    }
+    .map {
+        background-size: 17%;
+    }
+    /*======================= CONTACT PAGE =======================*/
+    .contact-svg {
+        background-size: 125%;
+    }
+    /*======================= FAQ PAGE =======================*/
+    .faq-svg {
+        background-size: 100%;
+    }
+    /*======================= FOOTER =======================*/
+    footer {
+        font-size: 13px;
+    }
+    .social-links a {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+	header {
+		height: 81px;
+	}
+	.responsive-div {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+    } 
+	#nav-menu {
+		background-color: var(--primary-color);
+        position: absolute;
+        top: 81px;
+        right: 0;
+        width: 100%;
+        box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(100%);
+    }
+	#nav-menu.open {
+        transform: translateX(0);
+    }
+    #nav-menu .menu {
+    	flex-direction: column;
+    }
+    #nav-menu .logo,
+    #nav-menu .faq-btn,
+    #nav-menu .contact-btn {
+    	display: none;
+    }
+    .menu li a {
+    	color: var(--light-color);
+    	font-size: 16px;
+    }
+    /*======================= MAIN PAGE =======================*/
+    .offers-news {
+        background-size: 18%;
+        background-position: bottom left;
+    }
+    .services-svg {
+        background-size: 30%;
+    }
+    .team-svg {
+        background-size: 100%;
+    }
+    .newsletter {
+        background-size: 60%;
+    }
+    .newsletter h2 {
+        font-size: 26px;
+    }
+    .map {
+        background-size: 25%;
+    }
+    /*======================= CONTACT PAGE =======================*/
+    .contact-svg {
+        background-position: bottom left;
+        background-size: inherit;
+    }
+    .contact-container {
+        margin-top: 20px;
+    }
+    /*======================= FAQ PAGE =======================*/
+    .faq-container {
+        margin-top: 20px;
+    }
+    .faq-section h2 {
+        font-size: 26px;
+    }
+    .faq-question h3 {
+        font-size: 18px;
+    }
+    .faq-section p {
+        font-size: 16px;
+    }
+    /*======================= FOOTER =======================*/
+    footer {
+        font-size: 12px;
+    }
+    .social-links a {
+        font-size: 1.3rem;
+    }
+}
