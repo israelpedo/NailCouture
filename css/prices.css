@@ -1,0 +1,110 @@
+:root {
+    --primary-color: #ff6f61;
+    --secondary-color: #ffcc;
+    --dark-color: #2F2E41;
+    --light-color: #E6E6E6;
+}
+/* Estilos Gerais da Seção Prices */
+.prices-section {
+    background-color: #f4f8fb;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.prices-svg {
+    background-image: url(../images/prices.svg);
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.prices-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.prices-section h2 {
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.prices-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Estilo dos Cards de Preços */
+.price-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.price-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.price-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.price-card-header h3 {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.price-card-body {
+    font-size: 16px;
+    color: #333;
+}
+
+.price-card-body p {
+    margin-bottom: 15px;
+}
+
+.price-card .price {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilo dos Ícones de Pagamento */
+.payment-icon {
+    width: 20%;
+    height: auto;
+}
+
+/* Estilo do Botão de Comprar Cartão Presente */
+.btn-buy-now {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-buy-now:hover {
+    background-color: #e55548;
+}
+
+/* Estilo do Código de Cupom */
+.coupon-code {
+    font-size: 18px;
+    color: var(--primary-color);
+    font-weight: bold;
+}

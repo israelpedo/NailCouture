@@ -1,0 +1,115 @@
+:root {
+    --primary-color: #ff6f61;
+    --secondary-color: #ffcc;
+    --dark-color: #2F2E41;
+    --light-color: #E6E6E6;
+}
+/* Estilos Gerais para Book Now */
+.book-now-section {
+    background-color: #f7fafc;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.book-svg {
+    background-image: url(../images/book.svg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.book-now-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+.book-now-section h2 {
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.book-now-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Estilos dos Passos */
+.booking-step {
+    display: block;
+    text-align: left;
+}
+
+.booking-step h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--dark-color);
+}
+
+.booking-step label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.booking-step input[type="date"], 
+.booking-step select,
+.booking-step input[type="text"],
+.booking-step input[type="email"],
+.booking-step input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.terms-policies {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f0f4f7;
+}
+
+.booking-summary {
+    margin: 20px 0;
+    background-color: #eef5f9;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.booking-summary h4 {
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+/* Botões */
+.btn-next, .btn-submit {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-next:hover, .btn-submit:hover {
+    background-color: #e55548;
+}
+
+.btn-next:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

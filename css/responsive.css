@@ -72,6 +72,10 @@
     .faq-svg {
         background-size: 100%;
     }
+    /*======================= PRICES PAGE =======================*/
+    .prices-svg {
+        background-size: 100%;
+    }
     /*======================= FOOTER =======================*/
     footer {
         font-size: 13px;
@@ -121,7 +125,7 @@
     }
     /*======================= MAIN PAGE =======================*/
     .offers-news {
-        background-size: 18%;
+        background-size: 20%;
         background-position: bottom left;
     }
     .services-svg {
@@ -129,6 +133,9 @@
     }
     .team-svg {
         background-size: 100%;
+    }
+    .reviews {
+        background-size: 45%;
     }
     .newsletter {
         background-size: 60%;
@@ -148,6 +155,9 @@
         margin-top: 20px;
     }
     /*======================= FAQ PAGE =======================*/
+    .faq-svg {
+        background-size: 125%;
+    }
     .faq-container {
         margin-top: 20px;
     }
@@ -159,6 +169,13 @@
     }
     .faq-section p {
         font-size: 16px;
+    }
+    /*======================= PRICES PAGE =======================*/
+    .prices-container {
+        margin-top: 20px;
+    }
+    .prices-svg {
+        background-size: 50%;
     }
     /*======================= FOOTER =======================*/
     footer {

@@ -316,6 +316,7 @@ header {
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease;
+    width: 150px;
 }
 
 .services .btn:hover {
